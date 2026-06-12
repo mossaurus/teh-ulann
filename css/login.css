@@ -1,0 +1,109 @@
+/* login section */
+.login-page{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        #5ed0d6,
+        #0b2f6b
+    );
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.login-card{
+    width:100%;
+    max-width:1200px;
+
+    background:#0b4fb6;
+
+    border-radius:40px;
+
+    padding:60px;
+}
+
+.login-card input{
+    width:100%;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:20px 30px;
+
+    font-size:24px;
+}
+
+.birth-group{
+    display:flex;
+    gap:30px;
+}
+
+.birth-group input{
+    flex:1;
+}
+
+.button-area{
+    display:flex;
+    justify-content:flex-end;
+
+    margin-top:80px;
+}
+
+#loginButton{
+    background:#0b2f6b;
+
+    color:white;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:18px 60px;
+
+    font-size:32px;
+
+    box-shadow:
+    0 10px 0 rgba(0,0,0,.2);
+}
+
+#message{
+    margin-top:20px;
+    margin-bottom:20px;
+
+    text-align:center;
+    font-weight:500;
+    font-size:18px;
+    min-height:30px;
+
+}
+
+.message .note{
+ margin-top:20px;
+}
+
+.note {
+  color: #dbeafe;
+  font-size: 20px;
+  text-align: left;
+}
+
+#errorMessage{
+    font-size:18px;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.error{
+    color:#ffb4b4;
+}
+
+.success{
+    color:#9fff9f;
+}

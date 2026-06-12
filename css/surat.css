@@ -1,0 +1,90 @@
+.surat {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  background: #eef2fb;
+}
+
+.surat-card {
+  width: 100%;
+  max-width: 680px;
+  background: white;
+  border-radius: 50px;
+
+  padding: 20px 50px;
+
+  text-align: center;
+}
+
+.surat-card h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.surat-card p {
+  font-size: 20px;
+  padding:10px;
+}
+
+.amplop {
+  margin: 10px;
+}
+
+
+
+.amplop img {
+    width:180px;
+    display:block;
+    margin:auto;
+    
+     filter:
+    brightness(0)
+    saturate(100%)
+    invert(16%)
+    sepia(43%)
+    saturate(2300%)
+    hue-rotate(205deg)
+    brightness(92%)
+    contrast(96%);
+
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% {
+    transform:translateY(0)
+  }
+  50% {
+    transform:translateY(-8px)
+  }
+}
+
+.warning{
+    font-size:18px;
+    color:#666;
+}
+
+/* .to {
+  margin-top:10px;
+  font-size:18px;
+  color:#0b2f6b;
+  font-weight:600;
+} */
+
+#open {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 999px;
+  background: #0b2f6b;
+  color: white;
+  font-size: 28px;
+  transition:.3s;
+}
+
+#open:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(11,47,107,0.2);
+}
+
