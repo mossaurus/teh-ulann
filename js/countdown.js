@@ -4,7 +4,7 @@ const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 
 const targetDate = new Date(
-  "June 13, 2026 15:00:00"
+  "June 12, 2026 22:30:30"
 ).getTime();
 
 const resultButton = document.getElementById("resultButton");
