@@ -45,3 +45,16 @@ const timer = setInterval(() => {
     window.location.href = "pages/login.html";
   });
 }, 1000);
+
+// reminder me
+const reminderBtn =
+document.getElementById("reminderBtn");
+
+reminderBtn.addEventListener("click", () => {
+
+    window.open(
+        "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Ulang+Tahun+Teteh+Ulan+🎂&details=Jangan+lupa+ngucapin+ulang+tahun+yaa+😁",
+        "_blank"
+    );
+
+});
